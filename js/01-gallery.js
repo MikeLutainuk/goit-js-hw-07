@@ -23,7 +23,7 @@ const addPhotoGallery = createPhotoGallery(galleryItems);
 
 divPhotos.insertAdjacentHTML("afterbegin", addPhotoGallery);
 
-divPhotos.addEventListener('click', onPhotoClick); 
+divPhotos.addEventListener('click', onPhotoClick);  
 
 function onPhotoClick(event) {
     event.preventDefault();
